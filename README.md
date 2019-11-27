@@ -1,4 +1,4 @@
-# @umi/ui-flag
+# @umijs/ui-flag
 
 A component that provides points for umi ui
 

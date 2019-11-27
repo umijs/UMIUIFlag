@@ -1,5 +1,5 @@
 {
-  "name": "UMIUIFlag",
+  "name": "@umijs/ui-flag",
   "version": "0.0.1",
   "description": "A component that provides points for umi ui",
   "main": "dist/index.js",
@@ -17,8 +17,7 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "father": "^2.16.0",
-    "typescript": "^3.3.3"
+    "father": "^2.16.0"
   },
   "license": "MIT"
 }
