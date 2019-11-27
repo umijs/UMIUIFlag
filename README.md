@@ -5,13 +5,13 @@ A component that provides points for umi ui
 ## Usage
 
 ```sh
-npm install @umi/ui-flag
+npm install @umijs/ui-flag
 ```
 
 in code
 
 ```tsx
-import UMIUIFlag from '@umi/ui-flag';
+import UMIUIFlag from '@umijs/ui-flag';
 
 const UserPage = ()=>{
   return (
