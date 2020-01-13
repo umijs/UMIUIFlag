@@ -1,9 +1,9 @@
 {
   "name": "@umijs/ui-flag",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A component that provides points for umi ui",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "authors": {
     "name": "chenshuai2144",
     "email": "qixian.cs@outlook.com"
@@ -11,7 +11,8 @@
   "repository": "https://github.com/umijs/UMIUIFlag/UMIUIFlag",
   "scripts": {
     "dev": "father doc dev",
-    "build": "father build"
+    "build": "father build",
+    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
     "react": "16.x"
